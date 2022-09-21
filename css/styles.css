@@ -12,7 +12,10 @@ ol {
 
 a {
     text-decoration: none;
+<<<<<<< HEAD
     color: #efefef;
+=======
+>>>>>>> 71b39504bf0b27f714579829bf212fa2780b3d96
 }
 
 .grid-container {
@@ -41,12 +44,17 @@ a {
 }
 
 /* ----Header---- */
+<<<<<<< HEAD
 .h1-title {
+=======
+.h1-ofertas {
+>>>>>>> 71b39504bf0b27f714579829bf212fa2780b3d96
     margin-top: 5px;
     text-align: center;
     font-weight: bold;
     text-shadow: 2px black;
 }
+<<<<<<< HEAD
 .h2-sub {
     display: flex;
     justify-content: center;
@@ -58,14 +66,20 @@ a {
     background-color: #61b9f8;
     color: black;
 }
+=======
+>>>>>>> 71b39504bf0b27f714579829bf212fa2780b3d96
 .btn-primary {
     border: white;
     background-color: #2874A6;
 }
+<<<<<<< HEAD
 .btn-primary a:hover{
     color: white;
 }
 /* -----NavBar----- */
+=======
+
+>>>>>>> 71b39504bf0b27f714579829bf212fa2780b3d96
 .nav-link {
     color: white;
 }
@@ -173,7 +187,10 @@ a {
 }
 /* --- noticias --- */
 .h2-noti {
+<<<<<<< HEAD
     background-color: #61b9f8;
+=======
+>>>>>>> 71b39504bf0b27f714579829bf212fa2780b3d96
     text-align: center;
     font-weight: bold;
 }
@@ -181,12 +198,15 @@ a {
     height: 200px;
     padding-top: 100px;
 }
+<<<<<<< HEAD
 .p-noti {
     height: 100px;
     color: white;
     border-radius: 5px;
     background-color: #3b627d;
 }
+=======
+>>>>>>> 71b39504bf0b27f714579829bf212fa2780b3d96
 /*-----Footer-----*/
 .footer{
     width: 100%;
