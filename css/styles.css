@@ -59,7 +59,7 @@ a {
 }
 
 .redes-contacto {
-    margin-top: 50px;
+    width: 100%;
 }
 .ubicacion-contenedor {
     margin-top: 50px;
@@ -68,6 +68,21 @@ a {
     display: flex;
     justify-content: center;
     background-color: #4e8bcd;
+}
+.box-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 80px;
+
+    background-color: #2874A6;
+}
+.title-box {
+    color: black;
+    font-weight: 5px;
+
 }
 .elaboracion-text {
     background-color: #61b9f8;
