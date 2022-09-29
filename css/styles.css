@@ -19,6 +19,7 @@ a {
     grid-template-areas:
         "header header header"
         "hero hero hero"
+        /* "productos productos productos" */
         "opiniones opiniones opiniones"
         "footer footer footer"
     ;
@@ -40,6 +41,10 @@ a {
 .grid-footer {
     grid-area: footer;
 }
+/* .grid-productos {
+    grid-area: productos;
+
+} */
 /* -----Animation----- */
 /* ----Header---- */
 .h1-title {
@@ -235,7 +240,7 @@ a {
 }
 
 .card {
-    height: 300px;
+    height: auto;
     width: 250px;
     margin: 10px;
 }
@@ -264,7 +269,13 @@ a {
     border-radius: 5px;
     background-color: #3b627d;
 }
-
+/* -----productos----- */
+/* .productos-conteiner {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+} */
 /*-----Footer-----*/
 .footer {
     width: 100%;
@@ -347,25 +358,3 @@ a {
         align-items: center;
     }
 }
-
-/* .footer .conte-2{
-    display: flex;
-    justify-content: center;
-    background-color: #225c95;
-    padding: 15px;
-    text-align: center;
-    color: #fff;
-}
-.footer .conte-2 .copy{
-    display: flex;
-    justify-content: baseline;
-    font-size: 15px;
-} */
-/* @media screen and (max-width:800px){
-    .pie-pagina .grupo-1{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
-        padding: 35px 0px;
-    }
-} */
