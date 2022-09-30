@@ -1,0 +1,24 @@
+/* -----Grid----- */
+.grid-container {
+    grid-template-areas:
+        "header header header"
+        "hero hero hero"
+        "opiniones opiniones opiniones"
+        "footer footer footer"
+    ;
+}
+.grid-header {
+    grid-area: header;
+}
+
+.grid-hero {
+    grid-area: hero;
+}
+
+.grid-opiniones {
+    grid-area: opiniones;
+}
+
+.grid-footer {
+    grid-area: footer;
+}
