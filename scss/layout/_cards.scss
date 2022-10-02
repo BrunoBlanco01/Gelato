@@ -10,6 +10,12 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    @include mobile-md{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        align-items: center;
+    }
 }
 
 .card {
@@ -27,12 +33,15 @@
             width: 50%;
         }
     }
-}
-@mixin mobile-sm{
-    @media (min-width:567px) {
-        @content;
+    &-index{
+        height: 290px;
     }
-    
+}
+
+.card-index{
+    @include mobile-sm{
+        height: auto;
+    }
 }
 .card-body {
     @include mobile-sm{

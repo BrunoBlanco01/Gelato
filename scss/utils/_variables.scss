@@ -1,1 +1,14 @@
 $color-primario: #2874A6;
+
+@mixin mobile-sm{
+    @media (max-width:567px) {
+        @content;
+    }
+    
+}
+@mixin mobile-md{
+    @media (max-width:768px) {
+        @content;
+    }
+    
+}

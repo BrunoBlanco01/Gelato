@@ -1,9 +1,8 @@
 /*-----Footer-----*/
 .footer {
+    margin-top: 50px;
     width: 100%;
     background-color: $color-primario;
-    position: relative;
-    top: 200px;
     .conte-1 {
         width: 100%;
         max-width: 1200px;
@@ -69,18 +68,18 @@
     
 }
 
-@media (max-width: 549px) {
-    .footer .conte-1 {
+.footer .conte-1 {
+    @include mobile-sm{
         display: flex;
         align-items: center;
         flex-direction: column;
     }
 }
-@media (max-width: 820px) {
-    .opiniones-conteiner {
+.opiniones-conteiner {
+    @include mobile-md{
         flex-direction: column;
         justify-content: center;
-        height: 950px;
+        height: auto;
         align-items: center;
     }
 }

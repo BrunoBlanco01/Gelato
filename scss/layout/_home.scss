@@ -1,0 +1,46 @@
+/* -----hero----- */
+.hero {
+    height: 400px;
+    width: 100%;
+
+    background-image: url(../assets/img/herobanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__text {
+        text-align: center;
+        h1 {
+            font-size: 5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 2px black;
+            color: white;
+        }
+        h2 {
+            font-size: 1rem;
+            text-shadow: 2px 2px 2px black;
+            color: white;
+        }
+    }
+}
+/* --- noticias --- */
+.h2-noti {
+    background-color: #61b9f8;
+    text-align: center;
+    font-weight: bold;
+}
+
+.conteiner-noti {
+    height: 200px;
+    padding-top: 100px;
+}
+
+.p-noti {
+    height: 100px;
+    color: white;
+    border-radius: 5px;
+    background-color: #3b627d;
+}
