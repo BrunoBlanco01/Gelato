@@ -26,18 +26,32 @@
             margin-top: 20px;
             width: 50%;
         }
-    } 
+    }
 }
-@media (max-width: 576px) {
-    .conter {
+@mixin mobile-sm{
+    @media (min-width:567px) {
+        @content;
+    }
+    
+}
+.card-body {
+    @include mobile-sm{
+        width: 100%;
+    }
+}
+.conter {
+    @include mobile-sm{
         display: flex;
         justify-content: center;
         align-items: center;
     }
+}
 
-    .card-img-top {
-        height: 100%;
-        width: 100%;
+.card-img-top {
+    @include mobile-sm{
+        height: auto;
+        width: 80%;
         object-fit: contain;
+        margin-left: 20px;
     }
 }

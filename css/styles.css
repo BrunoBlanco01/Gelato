@@ -15,6 +15,23 @@ a {
   color: white;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* -----Grid----- */
 .grid-container {
   grid-template-areas: "header header header" "hero hero hero" "opiniones opiniones opiniones" "footer footer footer";
@@ -287,18 +304,29 @@ a {
   width: 50%;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 567px) {
+  .card-body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 567px) {
   .conter {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+}
+
+@media (min-width: 567px) {
   .card-img-top {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 80%;
     object-fit: contain;
+    margin-left: 20px;
   }
 }
+
 /* -----Buttoms----- */
 .buttons {
   display: flex;
