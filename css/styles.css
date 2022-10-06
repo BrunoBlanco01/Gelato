@@ -146,21 +146,6 @@ a {
 }
 
 /* ----main---- */
-.nosotros-main {
-  height: 450px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.nosotros-title {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
 .h1-title {
   width: 200px;
   height: 60px;
@@ -233,6 +218,11 @@ a {
   background-color: #3b627d;
 }
 
+.noticias {
+  display: flex;
+  justify-content: center;
+}
+
 /* -----tarjetas----- */
 .title-section {
   margin-top: 25px;
@@ -280,6 +270,15 @@ a {
   }
 }
 
+.card-noticias {
+  width: 50%;
+}
+@media (max-width: 567px) {
+  .card-noticias {
+    width: auto;
+  }
+}
+
 @media (max-width: 567px) {
   .card-body {
     width: 100%;
@@ -303,13 +302,78 @@ a {
   }
 }
 
-.vid-elaboracion {
-  text-align: center;
-  width: 48%;
-}
-.vid-elaboracion iframe {
+.main-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 315px;
+  height: 350px;
+}
+
+.contenedor-form {
+  width: 250px;
+  height: 100%;
+}
+
+.box-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2874A6;
+  border-radius: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.title-form {
+  text-align: center;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+form label {
+  color: white;
+  width: 72px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+form input[type=text], form input[type=email] {
+  width: 90%;
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+}
+form textarea {
+  width: 90%;
+}
+
+.nosotros-main {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nosotros-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.nosotros-title .h1-title {
+  text-align: center;
+  margin-top: 50px;
 }
 
 .nosotros-section-1 {
@@ -327,6 +391,16 @@ a {
   padding: 10px;
   box-shadow: 5px 5px 5px rgb(113, 113, 113);
   background-color: rgb(83, 212, 241);
+}
+
+.vid-elaboracion {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.vid-elaboracion iframe {
+  width: 50%;
+  height: 100%;
 }
 
 @media (max-width: 520px) {
@@ -347,7 +421,8 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  width: auto;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 .ubicacion-contenedor {

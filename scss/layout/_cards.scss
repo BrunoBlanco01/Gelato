@@ -43,6 +43,12 @@
         height: auto;
     }
 }
+.card-noticias{
+    width: 50%;
+    @include mobile-sm{
+        width: auto;
+    }
+}
 .card-body {
     @include mobile-sm{
         width: 100%;
