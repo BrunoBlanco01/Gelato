@@ -1,0 +1,16 @@
+@mixin mobile-sm{
+    @media (max-width:567px) {
+        @content;
+    }
+    
+}
+@mixin mobile-md{
+    @media (max-width:768px) {
+        @content;
+    }
+    
+}@mixin mobile-lg{
+    @media (max-width:992px) {
+        @content;
+    }
+}

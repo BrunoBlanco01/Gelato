@@ -1,6 +1,8 @@
 @import "./base/reset";
 
+
 @import "./utils/variables";
+@import "./utils/media-queries";
 
 @import "./layout/grid";
 @import "./layout/footer";
@@ -16,19 +18,3 @@
 
 
 @import "./components/buttons";
-
-
-
-
-@mixin mobile-sm{
-    @media (max-width:567px) {
-        @content;
-    }
-    
-}
-@mixin mobile-md{
-    @media (max-width:768px) {
-        @content;
-    }
-    
-}

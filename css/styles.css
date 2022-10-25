@@ -15,12 +15,6 @@ a {
   color: white;
 }
 
-@font-face {
-  font-family: "Open Sans";
-  src: url("fonts/OpenSans-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
 /* -----Grid----- */
 .grid-container {
   grid-template-areas: "header header header" "hero hero hero" "opiniones opiniones opiniones" "footer footer footer";
@@ -341,6 +335,7 @@ a {
   }
 }
 
+/*-----forms-----*/
 .main-form {
   display: flex;
   justify-content: center;
@@ -399,6 +394,7 @@ form textarea {
   width: 90%;
 }
 
+/*-----nosotros-----*/
 .nosotros-title {
   display: flex;
   height: 150px;
@@ -476,6 +472,7 @@ form textarea {
   width: auto;
 }
 
+/*-----contacto-----*/
 .redes-contacto {
   display: flex;
   justify-content: center;
@@ -532,6 +529,7 @@ form textarea {
   font-weight: bold;
 }
 
+/*-----productos-----*/
 .productos-title {
   height: 250px;
   display: flex;
@@ -552,6 +550,7 @@ form textarea {
   font-size: 2.5rem;
 }
 
+/*-----ofertas-----*/
 .ofertas-title {
   height: 200px;
   display: flex;
