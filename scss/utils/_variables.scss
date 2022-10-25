@@ -1,4 +1,5 @@
 $color-primario: #2874A6;
+$link-color: black;
 
 @mixin mobile-sm{
     @media (max-width:567px) {
@@ -11,4 +12,15 @@ $color-primario: #2874A6;
         @content;
     }
     
+}@mixin mobile-lg{
+    @media (max-width:992px) {
+        @content;
+    }
+    
 }
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }

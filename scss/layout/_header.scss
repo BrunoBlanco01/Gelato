@@ -41,29 +41,6 @@
 
 /* ----main---- */
 
-.h1-title {
-    width: 200px;
-    height: 60px;
-    color: white;
-    font-weight: bold;
-    box-shadow: 3px 3px 5px black;
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-    background-color: $color-primario;
-    font-size: 2.5rem;
-}
-
-.btn-primary {
-    border: white;
-    background-color: $color-primario;
-
-    a {
-        &:hover {
-            color: white;
-        }
-    }
-}
-
 @media (max-width: 993px) {
     .show {
         display: flex;
